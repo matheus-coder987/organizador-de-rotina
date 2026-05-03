@@ -1,70 +1,58 @@
-🚀 Título do Projeto
-Uma breve descrição de uma frase explicando o que este repositório faz ou o que ele contém.
+📌 Organizador de Tarefas com IA
 
-📌 Índice
-Sobre o Material
+Este repositório contém o material do projeto Organizador de Tarefas com Inteligência Artificial, desenvolvido para auxiliar usuários a gerenciar suas tarefas de forma simples e automatizada.
 
-Estrutura de Pastas
+O sistema utiliza integração entre Web Chat, n8n e Firebase, permitindo armazenar e organizar tarefas automaticamente.
 
-Como Navegar
+📂 Estrutura do Repositório
 
-Tecnologias Utilizadas
+Abaixo está a organização dos arquivos presentes no projeto:
 
-Como Contribuir
+📁 projeto-organizador
+│
+├── 📁 docs
+│   └── documentação do projeto
+│
+├── 📁 backend
+│   └── lógica do sistema / automações
+│
+├── 📁 database
+│   └── configuração do Firebase
+│
+├── 📁 fluxos
+│   └── automações do n8n
+│
+└── README.md
+Explicação das Pastas
 
-Licença
+docs
+Contém a documentação do projeto, explicações e materiais de apoio.
 
-📖 Sobre o Material
-Explique aqui o objetivo central deste repositório. Por exemplo:
+backend
+Responsável pela lógica do sistema e comunicação entre os serviços.
 
-Qual problema ele resolve?
+database
+Arquivos relacionados à configuração e estrutura do Firebase, onde os dados são armazenados.
 
-Para quem ele é destinado?
+fluxos
+Contém os fluxos criados no n8n, responsáveis por automatizar o processamento das tarefas.
 
-O que o usuário aprenderá ou encontrará aqui?
+⚙️ Tecnologias Utilizadas
 
-📂 Estrutura de Pastas
-Para facilitar sua busca, o projeto está organizado da seguinte forma:
-Pasta / Arquivo,Descrição
-docs/,Documentação técnica e manuais.
-src/,Código-fonte do projeto.
-data/,Conjuntos de dados ou arquivos de entrada.
-assets/,"Imagens, logos e diagramas."
-examples/,Exemplos práticos de uso e snippets.
-🧭 Como Navegar
+Este projeto utiliza as seguintes tecnologias:
 
-Para aproveitar ao máximo este conteúdo, sugerimos seguir esta trilha:
+Web Chat – Interface de interação com o usuário
+n8n – Automação e integração entre serviços
+Firebase – Banco de dados em nuvem para armazenamento das tarefas
+🔄 Funcionamento do Sistema
 
-Início Rápido: Comece lendo os documentos na pasta /docs para entender a base teórica.
+O fluxo do sistema funciona da seguinte forma:
 
-Exploração de Código: Analise os arquivos em /src, que estão comentados para facilitar o entendimento.
+O usuário envia uma tarefa pelo Web Chat.
+A mensagem é enviada para o n8n.
+O n8n processa a informação e organiza os dados.
+Os dados são armazenados no Firebase.
+O usuário pode consultar ou adicionar novas tarefas pelo chat.
+🚀 Objetivo do Projeto
 
-Prática: Tente executar os scripts presentes na pasta /examples.
-
-[!TIP]
-Use a barra de pesquisa do GitHub (t) para encontrar arquivos específicos rapidamente dentro deste repositório.
-
-🛠 Tecnologias Utilizadas
-Linguagem: Python 3.x / JavaScript / etc.
-
-Frameworks: React / Django / FastAPI.
-
-Ferramentas: Docker / Git / Postman.
-
-🤝 Como Contribuir
-Contribuições são muito bem-vindas!
-
-Faça um Fork do projeto.
-
-Crie uma Branch para sua modificação (git checkout -b feature/nova-funcionalidade).
-
-Faça o Commit das alterações (git commit -m 'Adiciona nova funcionalidade').
-
-Envie para o Repo Original (git push origin feature/nova-funcionalidade).
-
-Abra um Pull Request.
-
-📄 Licença
-Este projeto está sob a licença MIT - veja o arquivo para mais detalhes.
-
-Desenvolvido por Seu Nome ⚡
+O objetivo do projeto é criar uma solução simples que ajude na organização de tarefas diárias, utilizando automação e inteligência artificial para facilitar a vida do usuário.
