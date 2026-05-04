@@ -50,6 +50,7 @@ A mensagem é enviada para o n8n.
 O n8n processa a informação e organiza os dados.
 Os dados são armazenados no Firebase.
 O usuário pode consultar ou adicionar novas tarefas pelo chat.
+
 🚀 Objetivo do Projeto
 
 O objetivo do projeto é criar uma solução simples que ajude na organização de tarefas diárias, utilizando automação e inteligência artificial para facilitar a vida do usuário.
