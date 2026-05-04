@@ -10,27 +10,22 @@ Abaixo está a organização dos arquivos presentes no projeto:
 
 📁 projeto-organizador
 │
-
 ├── 📁 docs
 │   
 └── documentação do projeto
 │
-
 ├── 📁 backend
 │   
 └── lógica do sistema / automações
 │
-
 ├── 📁 database
 │   
 └── configuração do Firebase
 │
-
 ├── 📁 fluxos
 │   
 └── automações do n8n
 │
-
 └── README.md
 
 
