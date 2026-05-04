@@ -7,7 +7,6 @@ Neste projeto foi utilizado o Firebase, uma plataforma de banco de dados em nuve
 
 O banco de dados é responsável por armazenar as tarefas enviadas pelos usuários, garantindo que essas informações possam ser consultadas posteriormente.
 
-Figura 1: Estrutura de armazenamento das tarefas no banco de dados.
 
 🚀 Tecnologias Utilizadas
 Firebase – Banco de dados utilizado para armazenar as tarefas.
