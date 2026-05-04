@@ -32,19 +32,7 @@ Abaixo está a organização dos arquivos presentes no projeto:
 │
 
 └── README.md
-Explicação das Pastas
 
-docs
-Contém a documentação do projeto, explicações e materiais de apoio.
-
-backend
-Responsável pela lógica do sistema e comunicação entre os serviços.
-
-database
-Arquivos relacionados à configuração e estrutura do Firebase, onde os dados são armazenados.
-
-fluxos
-Contém os fluxos criados no n8n, responsáveis por automatizar o processamento das tarefas.
 
 ⚙️ Tecnologias Utilizadas
 
@@ -65,3 +53,13 @@ O usuário pode consultar ou adicionar novas tarefas pelo chat.
 🚀 Objetivo do Projeto
 
 O objetivo do projeto é criar uma solução simples que ajude na organização de tarefas diárias, utilizando automação e inteligência artificial para facilitar a vida do usuário.
+
+#### 🗃️ Estrutura do projeto
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Projeto Organizador** | Sistema desenvolvido para organizar tarefas utilizando automação e inteligência artificial. | [Ver Projeto](./projeto-organizador/) |
+| **Docs** | Contém a documentação do projeto, explicações e materiais de apoio. | [Ver Projeto](./projeto-docs/) |
+| **Backend** | Contém a lógica do sistema e scripts responsáveis pelo processamento das tarefas. | [Ver Projeto](./projeto-backend/) |
+| **Database** | Arquivos relacionados à configuração e estrutura do banco de dados utilizado no projeto. | [Ver Projeto](./projeto-database/) |
+| **Fluxos** | Fluxos de automação criados no n8n responsáveis por processar e organizar as tarefas automaticamente. | [Ver Projeto](./projeto-fluxos/) |
+| **Readme.md** | Documentação detalhada explicando como o sistema funciona. | [Ver Projeto](./projeto-readme/) |
