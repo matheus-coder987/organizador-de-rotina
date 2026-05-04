@@ -1,6 +1,6 @@
-📌 Organizador de Tarefas com IA
+📌 Organizador de Rotinas com IA
 
-Este repositório contém o material do projeto Organizador de Tarefas com Inteligência Artificial, desenvolvido para auxiliar usuários a gerenciar suas tarefas de forma simples e automatizada.
+Este repositório contém o material do projeto Organizador de Rotinas com Inteligência Artificial, desenvolvido para auxiliar usuários a gerenciar suas tarefas de forma simples e automatizada.
 
 O sistema utiliza integração entre Web Chat, n8n e Firebase, permitindo armazenar e organizar tarefas automaticamente.
 
